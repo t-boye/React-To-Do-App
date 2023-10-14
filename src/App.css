@@ -1,0 +1,46 @@
+
+body {
+  background: linear-gradient(to right, #0099ff, #ffff00);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+  
+  h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .list-group {
+    padding-top: 1rem;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item input {
+    margin-right: 1rem;
+  }
+  
+  .list-group-item button {
+    margin-left: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
